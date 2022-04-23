@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Układanka</title>
+    <style>
+        #wzorek {
+            width: 75px;
+            height: 75px;
+            margin: auto;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #batoniki {
+            text-align: center;
+
+        }
+
+        .plansza_parent {
+            position: relative;
+            margin: auto;
+            margin-top: 5px;
+            width: 600px;
+            height: 600px;
+            border: 2px solid red;
+        }
+
+        .plansza {
+            background-image: url("image.png");
+            background-size: 600px;
+
+        }
+    </style>
+    <script src='ukladanka.js'></script>
+</head>
+
+<body>
+    <img id='wzorek' src="image.png">
+    <div id='batoniki'>
+        <button id='batonik1' onclick="przycinanie(p)">3x3</button>
+        <button id='batonik2' onclick=" przycinanie(p)">4x4</button>
+        <button id='batonik3' onclick="przycinanie(p)">5x5</button>
+        <button id='batonik4' onclick="przycinanie(p)">6x6</button>
+    </div>
+    <!-- <div id='plansza_parent'> -->
+    <!-- <img id='plansza' src="image.png"> -->
+    <!-- </div> -->
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
